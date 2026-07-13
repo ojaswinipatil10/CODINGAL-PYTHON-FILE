@@ -1,0 +1,25 @@
+import datetime
+
+print("\n================================")
+Mood = input("Enter your today's mood (happy, sad, angry, tired): ").strip().lower()
+Energylevel = input("Enter the day's energy levels: ")
+print("\n================================")
+
+if Mood == "sad":
+    print("OK : don't worry it will get better ❤️✨ !")
+elif Mood == "happy":
+    print("Its a great day , Lets gooo 😊⭐🚀 !")
+elif Mood == "angry":
+    print("Listen to some music, you need it to feel yourself again ! 👌😊")
+elif Mood == "tired":
+    print("Get yourself some food , drinks and decide a movie . lets goo come on ! 🎉🍿🥤")
+else:
+    print("Good mood loading ............. ✨❤️🎉👌😊")
+
+print("\n================================")
+
+City = "Your City" 
+now = datetime.datetime.now()
+print("City:", City)
+print("Time now:", now.strftime("%Y-%m-%d %H:%M:%S"))
+print("\n================================")
