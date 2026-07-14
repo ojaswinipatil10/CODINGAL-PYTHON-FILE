@@ -1,0 +1,10 @@
+number = "153"  
+digit1 = int(number[0])
+digit2 = int(number[1])
+digit3 = int(number[2])
+sum_of_cubes = (digit1 ** 3) + (digit2 ** 3) + (digit3 ** 3)
+
+if sum_of_cubes == int(number):
+    print("Yes, it is an Armstrong number! 🎉✨😀")
+else:
+    print("No, it is not. 👎🚫")
